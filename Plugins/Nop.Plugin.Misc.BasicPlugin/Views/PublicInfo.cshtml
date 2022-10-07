@@ -1,0 +1,21 @@
+﻿@model Nop.Plugin.Widgets.BasicPlugin.Models.PublicContentInfo
+@{
+    Layout = "";
+}
+<div>
+    <div>
+        @{
+            var data = new ViewDataDictionary(ViewData)
+            {
+            
+                { "title", Model.Title},
+                { "description", Model.Description},
+       
+            };
+
+            @await Html.PartialAsync("~/Plugins/Widgets.BasicPlugin/Views/_PublicInfo.Line.cshtml", data)
+        }
+        
+
+    </div>
+</div>

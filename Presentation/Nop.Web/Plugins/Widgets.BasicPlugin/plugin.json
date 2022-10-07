@@ -1,0 +1,11 @@
+﻿{
+  "Group": "UK Basic PLugin",
+  "FriendlyName": "BasicPlugin",
+  "SystemName": "Widgets.BasicPlugin",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.50" ],
+  "Author": "nopCommerce team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.BasicPlugin.dll",
+  "Description": "This plugin Basic PLugin"
+}

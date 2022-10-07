@@ -1,0 +1,16 @@
+﻿@model Nop.Plugin.Widgets.BasicPlugin.Models.PublicContentInfo
+
+@{
+   
+    var title = ViewData["title"]?.ToString() ?? "";
+    var description = ViewData["description"]?.ToString() ?? "";
+    var dataTransition = ViewData["dataTransition"]?.ToString() ?? "";
+    
+        <div class="feature col">
+        <h3>@title"</h3>
+        <p>@description</p>
+  
+        </div>
+
+    
+}
